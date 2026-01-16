@@ -54,7 +54,8 @@ node expense-tracker.js add 250 food "Lunch at canteen"
 node expense-tracker.js list
 
 ### View total expenses
-- terminal
+- terminal:
+
 node expense-tracker.js total
 
 
