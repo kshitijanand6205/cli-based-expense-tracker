@@ -70,8 +70,11 @@ node expense-tracker.js total
 
 ## Design Decisions
 • A command-line interface was chosen to keep the tool lightweight and fast.
+
 • JSON file storage was used instead of a database to avoid unnecessary complexity.
+
 • Input validation ensures incorrect data does not break the program.
+
 • The application is intentionally kept small and focused to match real-world daily usage.
 
 
@@ -84,15 +87,18 @@ node expense-tracker.js add 250 food
 “Lunch”
 - Expected Result: Expense is saved successfully.
 
+  
 2. Add expense with invalid amount Command:
 - terminal:
  node expense-tracker.js add abc food
 - Expected Result: Error message indicating invalid amount.
 
+
 3. Add expense without category Command:
 - terminal:
 node expense-tracker.js add 200
 - Expected Result: Error message indicating missing category.
+
 
 4. List expenses when data exists Command:
 - terminal:
@@ -101,6 +107,7 @@ node expense-tracker.js list
 
 5. List expenses when no data exists
 - Expected Result: Message indicating no expenses are recorded.
+
 
 6. View total expensesCommand:
 - terminal:
