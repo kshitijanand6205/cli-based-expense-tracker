@@ -1,0 +1,14 @@
+[
+  {
+    "amount": 250,
+    "category": "food",
+    "note": "Lunch at canteen",
+    "date": "2026-01-16"
+  },
+  {
+    "amount": 600,
+    "category": "travelling",
+    "note": "Bus from Patna to Bhagalpur",
+    "date": "2026-01-16"
+  }
+]
