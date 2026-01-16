@@ -118,7 +118,9 @@ node expense-tracker.js total
 
 ## Limitations 
 • This tool is intended for personal use and single-user scenarios. 
+
 • It does not support editing or deleting expenses. 
+
 • Currency is currently hardcoded.
 
 --- 
