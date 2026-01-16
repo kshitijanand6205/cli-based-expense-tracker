@@ -79,23 +79,31 @@ node expense-tracker.js total
 
 ## Test Cases: 
 1. Add expense with valid input Command:
+- terminal: 
 node expense-tracker.js add 250 food
 “Lunch”
 - Expected Result: Expense is saved successfully.
 
-2. Add expense with invalid amountCommand: node expense-tracker.js add abc food
+2. Add expense with invalid amount Command:
+- terminal:
+ node expense-tracker.js add abc food
 - Expected Result: Error message indicating invalid amount.
 
-3. Add expense without categoryCommand: node expense-tracker.js add 200
+3. Add expense without category Command:
+- terminal:
+node expense-tracker.js add 200
 - Expected Result: Error message indicating missing category.
 
-4. List expenses when data existsCommand: node expense-tracker.js list
+4. List expenses when data exists Command:
+- terminal:
+node expense-tracker.js list
 - Expected Result: All saved expenses are displayed.
 
 5. List expenses when no data exists
 - Expected Result: Message indicating no expenses are recorded.
 
-6. View total expensesCommand: 
+6. View total expensesCommand:
+- terminal:
 node expense-tracker.js total
 - Expected Result: Displays overall total and category-wise totals.
 
