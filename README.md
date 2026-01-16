@@ -55,7 +55,6 @@ node expense-tracker.js list
 
 ### View total expenses
 - terminal:
-
 node expense-tracker.js total
 
 
