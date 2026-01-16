@@ -36,26 +36,25 @@ No external frameworks or libraries are used.
 ### Setup
 1. Clone or download this repository
 2. Navigate to the project directory
-
-```bash
+- terminal: 
 cd expense-tracker
 
 ### Commands
 
 #### Add an expense
-```bash
+- terminal:
 node expense-tracker.js add <amount> <category> [note]
 
 Example:
-```bash
+- terminal:
 node expense-tracker.js add 250 food "Lunch at canteen"
 
 ### List all expenses
-```bash
+- terminal:
 node expense-tracker.js list
 
 ### View total expenses
-```bash
+- terminal
 node expense-tracker.js total
 
 
